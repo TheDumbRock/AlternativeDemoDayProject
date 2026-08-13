@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouToo! - Connecting Creators and Brands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <h2 class="logo">YouToo!</h2>
+      <button id="menu-btn">☰</button>
+      <nav id="nav-menu">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#for-you">For You</a>
+        <a href="#creators">Creators</a>
+        <a href="#join">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Where Creators Meet Brands</h1>
+    <p>YouToo! connects social media creators with companies who want authentic, user-generated content.</p>
+    <a href="#join" class="btn btn-creator">I'm a Creator</a>
+    <a href="#join" class="btn btn-brand">I'm a Brand</a>
+  </section>
+
+  <section id="how-it-works" class="section">
+    <h2>How It Works</h2>
+    <div class="card-row">
+      <div class="card">
+        <h3>1. Match</h3>
+        <p>Tell us about yourself and we'll match you with the right partner.</p>
+      </div>
+      <div class="card">
+        <h3>2. Create</h3>
+        <p>Make content in your own style, based on a simple brief.</p>
+      </div>
+      <div class="card">
+        <h3>3. Grow</h3>
+        <p>Get paid and build your portfolio for the next match.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="for-you" class="section alt-bg">
+    <h2>For Creators &amp; Brands</h2>
+
+    <div class="toggle-buttons">
+      <button id="creator-btn" class="toggle-btn active">For Creators</button>
+      <button id="brand-btn" class="toggle-btn">For Brands</button>
+    </div>
+
+    <div id="creator-info" class="info-box">
+      <ul>
+        <li>Get matched with brands that fit your niche</li>
+        <li>Set your own rate</li>
+        <li>Get paid directly through YouToo!</li>
+      </ul>
+    </div>
+
+    <div id="brand-info" class="info-box hidden">
+      <ul>
+        <li>Find creators across every niche</li>
+        <li>Launch a campaign in minutes</li>
+        <li>Pay creators safely through YouToo!</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="creators" class="section">
+    <h2>Featured Creators</h2>
+    <div class="card-row">
+      <div class="creator-card">
+        <div class="avatar">CB</div>
+        <h3>Mira Chen</h3>
+        <p>Tech &amp; Productivity</p>
+        <p>128K followers</p>
+      </div>
+      <div class="creator-card">
+        <div class="avatar">JW</div>
+        <h3>Jamal Woods</h3>
+        <p>Games &amp; Development</p>
+        <p>All Star Code Instructor</p>
+      </div>
+      <div class="creator-card">
+        <div class="avatar">WW</div>
+        <h3>William Wu</h3>
+        <p>Food &amp; Tech</p>
+        <p>All Star Code Student</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="join" class="section alt-bg">
+    <h2>Ready to Get Started?</h2>
+    <p>Join YouToo! today and become part of the loop.</p>
+    <button id="join-btn" class="btn btn-creator">Join Now</button>
+    <p id="join-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 YouToo! An alternative demo day project for All Star Code.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
